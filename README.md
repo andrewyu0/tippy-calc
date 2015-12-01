@@ -1,5 +1,5 @@
 # tippy-calc
-![](https://www.dropbox.com/s/rvbnhly33igdz3p/tippy-calc-icon.png?raw=1)
+![tippy-calc-icon](https://cloud.githubusercontent.com/assets/5696002/11513961/f79b847a-982a-11e5-9d27-0f242d0c8047.png)
 
 This is a tip calculator application for iOS submitted as the [pre-work](https://gist.github.com/timothy1ee/6858b706304a2397a7e2) requirement for Codepath.
 
