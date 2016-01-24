@@ -15,6 +15,7 @@
 		EF46B2361C09782200115639 /* tippy_calcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF46B2351C09782200115639 /* tippy_calcTests.swift */; };
 		EF46B2411C09782200115639 /* tippy_calcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF46B2401C09782200115639 /* tippy_calcUITests.swift */; };
 		EF46B2501C0A4D5000115639 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF46B24F1C0A4D5000115639 /* SettingsViewController.swift */; };
+		EFF837C61C54F5FE00FED29C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = EFF837C51C54F5FE00FED29C /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +36,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EF1A730C1C0D8CDC001CCBB1 /* tippy-calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "tippy-calc.app"; path = "/Users/andrewyu/Desktop/tippy-calc/build/Debug-iphoneos/tippy-calc.app"; sourceTree = "<absolute>"; };
-		EF1A730D1C0D8CDC001CCBB1 /* tippy-calcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "tippy-calcTests.xctest"; path = "/Users/andrewyu/Desktop/tippy-calc/build/Debug-iphoneos/tippy-calcTests.xctest"; sourceTree = "<absolute>"; };
-		EF1A730E1C0D8CDC001CCBB1 /* tippy-calcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "tippy-calcUITests.xctest"; path = "/Users/andrewyu/Desktop/tippy-calc/build/Debug-iphoneos/tippy-calcUITests.xctest"; sourceTree = "<absolute>"; };
 		EF46B2201C09782100115639 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF46B2221C09782100115639 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EF46B2251C09782100115639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -49,6 +47,10 @@
 		EF46B2401C09782200115639 /* tippy_calcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tippy_calcUITests.swift; sourceTree = "<group>"; };
 		EF46B2421C09782200115639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF46B24F1C0A4D5000115639 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		EFF837C21C545F8B00FED29C /* tippy-calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tippy-calc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFF837C31C545F8B00FED29C /* tippy-calcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tippy-calcTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFF837C41C545F8B00FED29C /* tippy-calcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tippy-calcUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFF837C51C54F5FE00FED29C /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +81,13 @@
 		EF46B2141C09782100115639 = {
 			isa = PBXGroup;
 			children = (
+				EFF837C51C54F5FE00FED29C /* .gitignore */,
 				EF46B21F1C09782100115639 /* tippy-calc */,
 				EF46B2341C09782200115639 /* tippy-calcTests */,
 				EF46B23F1C09782200115639 /* tippy-calcUITests */,
+				EFF837C21C545F8B00FED29C /* tippy-calc.app */,
+				EFF837C31C545F8B00FED29C /* tippy-calcTests.xctest */,
+				EFF837C41C545F8B00FED29C /* tippy-calcUITests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -142,7 +148,7 @@
 			);
 			name = "tippy-calc";
 			productName = "tippy-calc";
-			productReference = EF1A730C1C0D8CDC001CCBB1 /* tippy-calc.app */;
+			productReference = EFF837C21C545F8B00FED29C /* tippy-calc.app */;
 			productType = "com.apple.product-type.application";
 		};
 		EF46B2301C09782200115639 /* tippy-calcTests */ = {
@@ -160,7 +166,7 @@
 			);
 			name = "tippy-calcTests";
 			productName = "tippy-calcTests";
-			productReference = EF1A730D1C0D8CDC001CCBB1 /* tippy-calcTests.xctest */;
+			productReference = EFF837C31C545F8B00FED29C /* tippy-calcTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		EF46B23B1C09782200115639 /* tippy-calcUITests */ = {
@@ -178,7 +184,7 @@
 			);
 			name = "tippy-calcUITests";
 			productName = "tippy-calcUITests";
-			productReference = EF1A730E1C0D8CDC001CCBB1 /* tippy-calcUITests.xctest */;
+			productReference = EFF837C41C545F8B00FED29C /* tippy-calcUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -229,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFF837C61C54F5FE00FED29C /* .gitignore in Resources */,
 				EF46B22B1C09782100115639 /* LaunchScreen.storyboard in Resources */,
 				EF46B2281C09782100115639 /* Assets.xcassets in Resources */,
 				EF46B2261C09782100115639 /* Main.storyboard in Resources */,
