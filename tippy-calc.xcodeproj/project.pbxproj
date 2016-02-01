@@ -16,6 +16,7 @@
 		EF46B2411C09782200115639 /* tippy_calcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF46B2401C09782200115639 /* tippy_calcUITests.swift */; };
 		EF46B2501C0A4D5000115639 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF46B24F1C0A4D5000115639 /* SettingsViewController.swift */; };
 		EFF837C61C54F5FE00FED29C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = EFF837C51C54F5FE00FED29C /* .gitignore */; };
+		EFF837C81C581EAC00FED29C /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF837C71C581EAC00FED29C /* ShareViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		EFF837C31C545F8B00FED29C /* tippy-calcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tippy-calcTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFF837C41C545F8B00FED29C /* tippy-calcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tippy-calcUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFF837C51C54F5FE00FED29C /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		EFF837C71C581EAC00FED29C /* ShareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 		EF46B24E1C0A435300115639 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				EFF837C71C581EAC00FED29C /* ShareViewController.swift */,
 				EF46B2221C09782100115639 /* ViewController.swift */,
 				EF46B24F1C0A4D5000115639 /* SettingsViewController.swift */,
 			);
@@ -265,6 +268,7 @@
 			files = (
 				EF46B2231C09782100115639 /* ViewController.swift in Sources */,
 				EF46B2211C09782100115639 /* AppDelegate.swift in Sources */,
+				EFF837C81C581EAC00FED29C /* ShareViewController.swift in Sources */,
 				EF46B2501C0A4D5000115639 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

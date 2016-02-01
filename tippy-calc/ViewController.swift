@@ -10,8 +10,6 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    // @ay @date jan 23, testing branch, versioning
-
     @IBOutlet weak var billField: UITextField!
     @IBOutlet weak var tipLabel: UILabel!
     @IBOutlet weak var totalLabel: UILabel!
